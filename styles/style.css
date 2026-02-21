@@ -16,12 +16,7 @@
 }
 
 .header__address {
-    display: flex;
-    max-width: 240px;
     justify-self: end;
-    flex-direction: column;
-    align-items: flex-start;
-    font-size: 18px;
 }
 
 .header__menu {
@@ -29,27 +24,21 @@
     gap: 30px;
 }
 
-.header__links-list-item_no-bullit {
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.header__links-list-item {
+.header__menu-link {
     display: list-item;
     list-style: circle;
-    text-decoration: none;
-    border-bottom: 1px solid black;
-    padding-bottom: 1px;
     font-size: 18px;
-}
-
-.number {
     text-decoration: none;
     border-bottom: 1px solid black;
     padding-bottom: 1px;
 }
 
-.email {
+.header__menu-link_active {
+    list-style: none;
+    border-bottom: none;
+}
+
+.address__link {
     text-decoration: none;
     border-bottom: 1px solid black;
     padding-bottom: 1px;
