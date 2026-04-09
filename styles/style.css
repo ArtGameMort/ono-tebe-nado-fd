@@ -87,10 +87,12 @@
 
 .aligned-text_left {
     text-align: left;
+    margin-bottom: 20px;
 }
 
 .aligned-text_center {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .aligned-text_right {
